@@ -1,0 +1,11 @@
+import java.util.Locale;
+import java.util.ResourceBundle;
+
+public class homework {
+
+    public static void main(String[] args) {
+        Locale mineLocale=new Locale("zh", "CN");
+        ResourceBundle bundle=ResourceBundle.getBundle("msg",mineLocale);
+    }
+
+}

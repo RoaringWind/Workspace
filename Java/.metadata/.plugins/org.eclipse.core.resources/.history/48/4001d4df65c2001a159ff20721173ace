@@ -1,0 +1,14 @@
+package com.bussiness;
+import com.test.Worker;
+public class Boss {
+    public static void main(String[] a)
+
+    {
+
+        com.test.Worker w = new com.test.Worker();
+
+        w.sayHello();
+
+    }
+
+}

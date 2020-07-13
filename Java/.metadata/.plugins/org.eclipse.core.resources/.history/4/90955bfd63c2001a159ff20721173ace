@@ -1,0 +1,9 @@
+package com.test;
+
+public class Worker {
+    Worker(){};
+    public void sayHello()
+    {
+        System.out.println("hello");
+    }
+}

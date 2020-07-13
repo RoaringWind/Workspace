@@ -1,0 +1,9 @@
+import java.util.Locale;
+
+public class homework {
+
+    public static void main(String[] args) {
+        Locale a=new Locale("zh", "CN");
+    }
+
+}

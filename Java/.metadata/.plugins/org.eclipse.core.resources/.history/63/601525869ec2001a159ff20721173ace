@@ -1,0 +1,10 @@
+
+import static org.junit.Assert.*;
+public class TriangleTest {
+    
+    @test
+    public void test() {
+        assertEquals(false,new Triangle().judgeEdges(1, 2, 3));
+    }
+    
+}
