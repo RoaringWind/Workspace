@@ -24,7 +24,7 @@ git pull origin master
 ```bash
 # 本地分支push到远程
 git push origin master
-git push <remote> <branch>
+# git push <remote> <branch>
 ```
 
 ```bash
