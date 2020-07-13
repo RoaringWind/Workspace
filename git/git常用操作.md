@@ -42,3 +42,11 @@ git reset
 git remote add origin git@github.com:RoaringWind/BoringPic.git # origin只是一个别名（shortname），不是分支名也不是直接的仓库名，可以理解成绰号！！
 ```
 
+```bash
+# 合并分支
+git checkout -b iss53 # 新建并切换到iss53 等价于 git branch iss53 + git checkout iss53
+# 进行增删改操作后commit
+git checkout master # Switched to branch 'master'
+git merge iss53 # Merge made by the 'recursive' strategy. Merge iss53 into master.
+
+```
