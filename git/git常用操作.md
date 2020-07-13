@@ -28,7 +28,8 @@ git push <remote> <branch>
 ```
 
 ```bash
-# 比较差异
+# 比较差异，先把远程仓库的内容取到本地分支
+git fetch origin
 # git diff <local branch> <remote>/<remote branch>
 git diff --stat master origin/master
 ```
