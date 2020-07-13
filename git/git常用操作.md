@@ -28,7 +28,7 @@ git push <remote> <branch>
 ```
 
 ```bash
-# 比较差异，先把远程仓库的内容取到本地分支
+# 比较差异，需要先把远程仓库的内容取到本地分支
 git fetch origin
 # git diff <local branch> <remote>/<remote branch>
 git diff --stat master origin/master
@@ -36,5 +36,9 @@ git diff --stat master origin/master
 ```bash
 # 恢复
 git reset
+```
+```bash
+# 添加远程仓库
+git remote add origin git@github.com:RoaringWind/BoringPic.git
 ```
 
