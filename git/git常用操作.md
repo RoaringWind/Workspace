@@ -39,6 +39,6 @@ git reset
 ```
 ```bash
 # 添加远程仓库
-git remote add origin git@github.com:RoaringWind/BoringPic.git
+git remote add origin git@github.com:RoaringWind/BoringPic.git # origin只是一个别名（shortname），不是分支名也不是直接的仓库名，可以理解成绰号！！
 ```
 
