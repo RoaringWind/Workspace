@@ -50,3 +50,10 @@ git checkout master # Switched to branch 'master'
 git merge iss53 # Merge made by the 'recursive' strategy. Merge iss53 into master.
 
 ```
+
+```bash
+# 删除文件夹
+git rm -r --cached <foldName>
+git commit -m "delete fold"
+```
+
