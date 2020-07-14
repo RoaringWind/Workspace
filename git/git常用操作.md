@@ -19,6 +19,7 @@ git commit --amend #修改上次提交信息
 ```bash
 # 合并远程分支到本地
 git pull origin master #pull先把远程分支取到现在机器上，再与本地分支合并
+# 等价于 git fetch origin + git merge origin/master
 ```
 
 ```bash
