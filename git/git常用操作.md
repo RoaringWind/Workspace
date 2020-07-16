@@ -1,6 +1,7 @@
 ```bash
 # 克隆
 git clone git@github.com:RoaringWind/PracticeCode.git #在当前文件夹下，创建以PracticeCode为名字的文件夹，递归克隆仓库
+git clone ssh://git@ip:port/home/git/repo.git #ssh，ip和port换成对应的ip和端口即可
 ```
 ```bash
 # 添加
