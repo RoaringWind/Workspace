@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\PracticeCode\Java\MOOC17-homework\src\homework.java"/>
 			<item value="F:\Workspace\Java\MOOC14-homework\src\test\java\DateUtilTest.java"/>
 			<item value="F:\Workspace\Java\MOOC14-02"/>
 			<item value="F:\Workspace\Java\MOOC14-02\pom.xml"/>
@@ -16,6 +17,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -46,6 +48,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.ecnu"/>
+			<item value="cn.edu"/>
 			<item value="com"/>
 			<item value="com.test"/>
 		</list>
@@ -53,6 +57,8 @@
 			<item value="MOOC13-01Maven"/>
 		</list>
 		<list key="artifactId">
+			<item value="thread1"/>
+			<item value="threadhomework"/>
 			<item value="MOOC13-homework"/>
 			<item value="MOOC14-homework"/>
 			<item value="MOOC14-02"/>
@@ -81,5 +87,18 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="MOOC17-homework"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="MOOC17-homework"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>

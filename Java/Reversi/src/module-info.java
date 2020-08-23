@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author blood
+ *
+ */
+module Reversi {
+}
