@@ -38,7 +38,7 @@ public class NioServer {
         /**
          * 3. 为channel通道绑定监听端口
          */
-        serverSocketChannel.bind(new InetSocketAddress(8000));
+        serverSocketChannel.bind(new InetSocketAddress(8003));
  
         /**
          * 4. **设置channel为非阻塞模式**
@@ -79,7 +79,7 @@ public class NioServer {
                 SelectionKey selectionKey = (SelectionKey) iterator.next();
  
                 /**
-                 * **移除Set中的当前selectionKey**
+                 * **移除Set中的当前selectionKey,这里remove的是selector里的selectedKeys**
                  */
                 iterator.remove();
  

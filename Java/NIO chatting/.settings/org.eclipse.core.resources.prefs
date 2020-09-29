@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/com/nio/NioClient.java=GBK
+encoding//src/com/nio/NioClientHandler.java=GBK
+encoding//src/com/nio/NioServer.java=GBK

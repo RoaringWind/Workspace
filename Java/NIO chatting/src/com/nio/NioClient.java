@@ -21,7 +21,7 @@ public class NioClient {
          * 连接服务器端
          */
         SocketChannel socketChannel = SocketChannel.open(
-                new InetSocketAddress("127.0.0.1", 8000));
+                new InetSocketAddress("127.0.0.1", 8003));
  
         /**
          * 接收服务器端响应
@@ -49,7 +49,7 @@ public class NioClient {
     }
  
     public static void main(String[] args) throws IOException {
-//        new NioClient().start();
+        new NioClient().start(ClientA.getRandomString(6));
     }
  
 }
